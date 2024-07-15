@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page With 3 pages</title>
+    <style>
+        html,body{
+            margin: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        nav{
+            text-align: center;
+            background-color: rgb(72, 71, 71);
+            color: white;
+           padding: 10px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin: 0;
+        }
+        .Container{
+            text-align: center;
+            margin: 2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.1999rem;
+        }
+        .active{
+            border-bottom: 4px red solid;
+        }
+        li:hover{
+            color: red;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Q.3) Build a simple blog web page with 3 pages home, web development, and web design. Each page must
+              contain hyperlinks to other pages in the top, a heading of the page topic and a paragraph of information.
+              For the home page you can add some information about yourself. -->
+
+    <nav>
+        <ul>
+            <li><a href="../02) Core Html/3.html">Home</a></li>
+            <li class="active">Web Development</li>
+            <li><a href="../02) Core Html/3b.html">Web Design</a></li>
+        </ul>
+    </nav>
+    <div class="Container">
+        <h1>Web Development</h1>  
+        <p>Web development involves creating and maintaining websites and web applications. 
+            It encompasses various aspects, including web design, web content development, 
+            client-side/server-side scripting, and network security configuration.</p>   
+    </div>
+         
+</body>
+</html>
